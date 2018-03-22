@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" junit="false" name="FullSuite" preserve-order="true" skipfailedinvocationcounts="false" thread-count="2" verbose="1">
+<test>
+ <listeners>
+      <listener class-name="testNG.StringexampleTest"/>
+     </listeners>
+    <classes>
+      <class name="testNG.Stringexample"/>
+    </classes>
+  <test name="Test">
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
